@@ -1,4 +1,5 @@
 body {
+  width: auto;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,13 +11,6 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-.favButton{
-  background-color: rgba(136, 136, 136, 0.116);
-  padding: 10px;
-  border: none;
-  width: 100%;
-  cursor: pointer;
 }
 
 h1{
@@ -53,10 +47,11 @@ footer {
 }
 
 footer > img{
-  width: 200px;
+  width: auto;
   margin: 0;
 }
 footer > p{
+  width: auto;
   margin: 0;
   padding-top: 0.7rem;
 }
@@ -95,11 +90,11 @@ form{
 }
 
 table {
- border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-    display: table;
-    border: 1px solid #ccc;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table;
+  border: 1px solid #ccc;
 
 }
 
@@ -120,3 +115,114 @@ tr:nth-child(even) {
 .dark > a {
   color: white;
 }
+
+.linkCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgOdontologo {
+  width: 100%;
+}
+
+.favBtn{
+  background-color: #86F6EB;
+  padding: 10px;
+  border: none;
+  width: auto;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn-form{
+  background-color: #07F548;
+  padding: 10px;
+  border: none;
+  width: auto;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btnBack{
+  background-color: #D50000;
+  padding: 10px;
+  border: none;
+  width: auto;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.cont-formComp {
+  width: auto;
+  height: 74vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+.contForm{
+  width: auto;
+  height: 74vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputForm{
+  margin: 10px 0 20px 0;
+  padding: 6px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+
+.linksNav{
+  width: auto;
+  margin-left: 5vw;
+  font-size: 1.2rem;
+}
+.linkCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cont-cardDetail{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardDetail{
+  width: 35%;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+
+.cont-h3 {
+  box-sizing: content-box;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+h3{
+  text-align: center;
+}
+
